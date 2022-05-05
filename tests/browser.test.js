@@ -41,5 +41,5 @@ test('Pushing to the stack should update top of the stack test', async () =>{
 	await alert.accept();
 
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-	expect(stack).toEqual("n/a");
+	expect(stack).toEqual("1");
 });
