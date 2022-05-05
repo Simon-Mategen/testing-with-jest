@@ -32,3 +32,14 @@ describe('Clicking "Pusha till stacken"', () => {
 		await alert.accept();
 	});
 });
+
+test('Pushing to the stack should update top of the stack test', async () =>{
+    let push = await driver.findElement(By.id('push'));
+	await push.click();
+	let alert = await driver.switchTo().alert();
+	await alert.sendKeys("1");
+	await alert.accept();
+
+    let stack = await driver.findElement(By.id('top_of_stack')).getText();
+	expect(stack).toEqual("n/a");
+});
