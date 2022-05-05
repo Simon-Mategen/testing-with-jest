@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "A Jest + npm lab session",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "\u001b\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Csrc/index.js\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Djest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon-Mategen/testing-with-jest.git"
+  },
+  "author": "Simon Måtegen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simon-Mategen/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/Simon-Mategen/testing-with-jest#readme"
+}
